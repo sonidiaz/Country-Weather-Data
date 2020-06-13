@@ -1,0 +1,23 @@
+h3{
+  margin: 30px 0;
+}
+
+.dot-gis{
+  > div{
+    border-bottom: 1px solid;
+    border-right: 1px solid;
+    padding-bottom: 28px;
+    box-sizing: border-box;
+    > div{
+      background: #fff;
+    }
+  }
+}
+.center-loader{
+  position: relative;
+  margin: 50px auto;
+}
+
+.mt-10{
+  margin-top: 20px;
+}
