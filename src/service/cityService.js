@@ -1,5 +1,5 @@
 import Service from './Service.js';
-const API_KEY = '0614d13377e407e8c0724c47d862443b'
+import {API_KEY} from '../apikey.js'
 
 export default {
     get(city) {
