@@ -176,9 +176,14 @@ label {
 * -- PURE BUTTON STYLES --
 * I want my pure-button elements to look a little different
 */
+.color-white{
+  color: white !important;
+}
+.button-large {
+  color: white !important;
+}
 .pure-button {
-  background-color: #1f8dd6;
-  color: white;
+  color: black;
   padding: 0.5em 2em;
   border-radius: 5px;
 }

@@ -196,8 +196,6 @@ async function listCityWeather() {
     });
     
     AllCountrysData[allCitys[index].data.city.name] = allMetrics;
-
-    // AllCountrysData[allCitys[index].data.city.info] = allCitys[index].data.city;
   }
   return AllCountrysData;
 }

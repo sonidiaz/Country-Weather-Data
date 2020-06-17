@@ -40,7 +40,7 @@ const HeaderApp = ({
                         onClick={() => {
                           getWeatherAll(weatherList);
                         }}
-                        className="pure-button pure-button-primary button-small"
+                        className="color-white pure-button pure-button-primary button-small"
                       >
                         Por semana
                       </button>
@@ -50,7 +50,7 @@ const HeaderApp = ({
                         onClick={() => {
                           getWeatherADay(weatherList);
                         }}
-                        className="pure-button pure-button-primary button-small"
+                        className="color-white pure-button pure-button-primary button-small"
                       >
                         Próximas 24 horas
                       </button>
@@ -60,7 +60,7 @@ const HeaderApp = ({
                         onClick={() => {
                           getWeatherToDay(weatherList);
                         }}
-                        className="pure-button pure-button-primary button-small"
+                        className="color-white pure-button pure-button-primary button-small"
                       >
                         Hoy
                       </button>
