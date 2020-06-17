@@ -1,7 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import { Map, GoogleApiWrapper } from "google-maps-react";
 import { useLocation } from "react-router-dom";
-import {isMobile} from '../helpers/mobileDetect.js'
+import {isMobile} from '../helpers/mobileDetect.js';
+import {API_GOOGLE} from '../apikey.js'
 import {
   LineChart,
   Line,
@@ -169,7 +170,7 @@ const mapStateToProps = (state) => {
 
 export default connect(mapStateToProps)(
   GoogleApiWrapper({
-    apiKey: "AIzaSyC3xstYOYoWMcM50NBHwVm-cXFRkDCdlZ8", // google maps key
+    apiKey: API_GOOGLE, // google maps key
     libraries: ["places"],
   })(Details)
 );
